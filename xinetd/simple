@@ -1,0 +1,24 @@
+###############################################################
+# usage:                                                      #
+#   edit <user_name> and <absolute_path_to_executable_file>   #
+# 	cp simple /etc/xinetd.d/                                  #
+# 	service xineted restart                                   #
+#   nc localhost 8888                                         #
+###############################################################
+# xinetd.conf manual:                                         #
+#	https://linux.die.net/man/5/xinetd.conf                   #
+###############################################################
+
+
+service simple
+{
+    disable = no
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = <user_name>
+    type        = UNLISTED
+    port        = 8888
+    bind        = 0.0.0.0
+    server      = <absolute_path_to_executable_file>
+}
