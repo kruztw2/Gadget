@@ -1,8 +1,8 @@
 //////////////////////////////////////////////////////////
-//						        //
+//			       			                            //
 //  fork fail : Resource temporarily unavailable        //
 //  ulimit -u  or use sudo ./simple                     //
-//  							//
+//  							                        //
 //////////////////////////////////////////////////////////
 
 #include <stdio.h>
