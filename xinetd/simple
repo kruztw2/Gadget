@@ -1,12 +1,12 @@
 ###############################################################
 # usage:                                                      #
 #   edit <user_name> and <absolute_path_to_executable_file>   #
-# 	cp simple /etc/xinetd.d/                                  #
-# 	service xineted restart                                   #
+#   cp simple /etc/xinetd.d/                                  #
+#   service xineted restart                                   #
 #   nc localhost 8888                                         #
 ###############################################################
 # xinetd.conf manual:                                         #
-#	https://linux.die.net/man/5/xinetd.conf                   #
+#   https://linux.die.net/man/5/xinetd.conf                   #
 ###############################################################
 
 
