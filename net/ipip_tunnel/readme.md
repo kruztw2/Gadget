@@ -3,7 +3,6 @@
 <b>reference: https://www.cnblogs.com/bakari/p/10564347.html</b>
 
 ![](https://img2018.cnblogs.com/blog/431521/201903/431521-20190320132302980-826956388.png)
-reference: https://www.cnblogs.com/bakari/p/10564347.html
 
 
 ## Usage
