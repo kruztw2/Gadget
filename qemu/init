@@ -1,5 +1,7 @@
 #!/bin/sh
 
+mount -t proc proc /proc
+mount -t sysfs sysfs /sys
 mknod -m 0660 /dev/ttyS0 c 4 64
 setsid cttyhack setuidgid 0 /bin/sh
 poweroff -f
